@@ -1,0 +1,53 @@
+.predrocessing {
+  height: 200px;
+  background: rgb(209, 198, 198);
+}
+.predrocessing__title {
+  font-size: 45px;
+  color: darkblue;
+  width: 250px;
+  background-color: coral;
+}
+.predrocessing__title-subtitle {
+  font-size: 25px;
+  color: rgb(208, 20, 202);
+  width: 700px;
+  background-color: rgb(26, 183, 86);
+}
+.predrocessing__title-subtitle__one {
+  background-color: black;
+  color: wheat;
+}
+
+.pre-footer-block-second-content {
+  position: relative;
+  height: 1190px;
+  background-color: #000000;
+  color: white;
+  flex-shrink: 0;
+}
+.pre-footer-block-second-content__card {
+  position: absolute;
+  height: 460px;
+  width: 350px;
+  margin: 0 auto;
+  background-image: url("images/list.png");
+  z-index: 1;
+  margin-left: 60em;
+}
+.pre-footer-block-second-content__formcontent {
+  z-index: 0;
+  width: 840px;
+  height: 852px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #fbf19b;
+  position: absolute;
+  margin-left: 20em;
+  margin-top: 20em;
+}/*# sourceMappingURL=style-preprocess.css.map */
+
+.pre-footer-block-second-content__form-title {
+  margin-top: 3em;
+  font-size: large;
+}
