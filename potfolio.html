@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style-preprocess.css">
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+</head>
+
+<body>
+  <div>
+    <div class="header-info">
+      <section class="header-info-section-navigate">
+        <div>How it works</div>
+        <div>Pricing</div>
+        <div>Benefits</div>
+      </section>
+      <section class="header-info-section-btn">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          Sign up
+        </button>
+      </section>
+    </div>
+    <div class="main-content-portfolio">
+      <section id="section_img-horison">
+        <img src="" alt="" />
+      </section>
+      <section id="section_img-wertical">
+        <img src="" alt="" />
+      </section>
+    </div>
+    <div class="main__content-title">
+      <span>Scale knowledge</span>
+    </div>
+    <div class="main-content-descriptions">
+      <p>
+        Question Base is a new kind of knowledge base. Powered by AI it
+        answers your team’s questions inside Slack. Automatically.
+      </p>
+    </div>
+    <div class="main-content-btn">
+      <button type="button" class="btn btn-primary">Primary</button>
+    </div>
+    <div class="footer-content">
+      <div class="footer-content-info">
+        <span>“Growing fast requires fast answers."</span>
+        <p>— Kasper, CEO Question Base</p>
+      </div>
+    </div>
+
+    <div class="main-content-info">
+      <div class="main-content-info_head">
+        <section id="form-content">
+          <form action="https://jsonplaceholder.typicode.com/todos" method="GET">
+            <h2>FORM</h2>
+            <div class="mb-3">
+              <i class="fa-solid fa-user-tie"></i>
+              <label for="exampleInputEmail1" class="form-label">name</label>
+              <input type="text" placeholder="ente your name here" class="form-control" />
+              <i class="fa-solid fa-user-tie"></i>
+              <label for="exampleInputEmail1" class="form-label">last name</label>
+              <input type="text" placeholder="ente your name here" class="form-control" />
+              <div class="form-select-custom">
+                <select class="form-select mt-3" aria-label="Default select example">
+                  <option selected>gender</option>
+                  <option value="1">male</option>
+                  <option value="2">female</option>
+                </select>
+              </div>
+              <i class="fa-regular fa-envelope"></i>
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" placeholder="ente your email adress" class="form-control" id="exampleInputEmail1"
+                aria-describedby="emailHelp" />
+
+              <div id="emailHelp" class="form-text">
+                We'll never share your email with anyone else.
+              </div>
+              <div class="mb-3">
+                <i class="fa-solid fa-key"></i>
+                <label for="exampleInputPassword1" class="form-label"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <div class="mb-3">
+                <i class="fa-solid fa-address-card"></i>
+                <label class="form-check-label" for="exampleCheck1"
+                  >Tell me abot youself</label
+                >
+                <textarea
+                  class="form-control"
+                  placeholder="Leave a comment here"
+                  id="floatingTextarea"
+                ></textarea>
+              </div>
+              <div class="btn-custom-form">
+                <button type="submit" class="btn btn-primary m-3">
+                  SEND ME
+                </button>
+                <button
+                  type="reset"
+                  id="reset-fields"
+                  class="btn btn-primary m-3"
+                >
+                  RESET
+                </button>
+              </div>
+            </form>
+          </section>
+          <section id="info">
+            <div>number1</div>
+            <div>
+              <button
+                type="button"
+                class="btn btn-lg btn-danger"
+                data-bs-toggle="popover"
+                title="Popover title"
+                data-bs-content="And here's some amazing content. It's very engaging. Right?"
+              >
+                Click to toggle popover
+              </button>
+            </div>
+            <div>number3</div>
+          </section>
+        </div>
+      </div>
+
+      <div class="main-content-form-info">
+        <div class="main-content-form-info_title">
+          Most team leads spend their time answering the same questions over and
+          over. Not anymore.
+        </div>
+        <div class="main-content-forminfo-cards">
+          <div>Scale up knowledge</div>
+          <div>Reduce interruptions</div>
+          <div>Grow Organically</div>
+          <div>Grow Flower</div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="myBlock">
+      <strong>'No tiers, no complexity.</strong> <br>
+      <strong> Pay only for what you use.'
+      </strong> <br>
+      <small>-Alex Zasadiuk, CSO Question Base </small>
+    </div>
+
+
+
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Sign up</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">Welcome to Sign up</div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Close
+          </button>
+          <button type="button" class="btn btn-primary">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pre-footer-block">
+    <div class="pre-footer-block-first-content">
+      
+        <div class="pre-footer-block-first-content__title">
+          <div class="pre-footer-block-first-content__icon"></div>
+         <p>Most team leads spend their time</p>
+        
+         <p>answering the same questions</p>
+         <p>over and over. Not anymore.</p> 
+           
+        
+        </div>
+ 
+
+        <div class="pre-footer-block-first-content__cards">
+            <div class="content__cards-one">
+                <div class="content__cards-numbers">01</div>
+                <div class="content__cards-title">Scale up <br>knowledge</div>
+                <div class="content__cards-subtitle">Your Slack contains a wealth of knowledge. Question Base’s AI uncovers and surfaces these insights to your team.</div>
+            </div>
+            <div class="content__cards-two">
+              <div class="content__cards-numbers">02</div>
+              <div class="content__cards-title">Reduce <br>interruptions</div>
+              <div class="content__cards-subtitle">Let people get the answers they need without interrupting the work of others. Right from inside Slack.</div>
+          </div>
+          <div class="content__cards-three">
+            <div class="content__cards-numbers">03</div>
+            <div class="content__cards-title">Grow <br>Organically</div>
+            <div class="content__cards-subtitle">There’s no extra work involved. Once you add Question Base to a Slack channel it will automatically start answering to questions.</div>
+        </div>
+          
+        </div>
+
+    </div>
+
+
+    <div class="pre-footer-block-second-content">
+
+      <div class="pre-footer-block-second-content__card">
+        <img src="" alt="">
+      </div>
+      <div class="pre-footer-block-second-content__formcontent">
+        <form action="">Scale <br>knowledge <br>effortlessly.
+
+          <div class="pre-footer-block-second-content__form-title">
+            We are gradually rolling out Question Base to teams. <br>Leave your contacts and be the first to know.
+          </div>
+          <div class="pre-footer-block-second-content__form-subtitle"></div>
+        </form>
+      </div>
+
+      </div>
+
+  </div>
+
+</body>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+</html>
