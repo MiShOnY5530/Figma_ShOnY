@@ -48,3 +48,37 @@
     position: absolute;
   }
 }
+
+.general-block__crypto__head { 
+  height: 1170px;
+  background: rgb(50,124,213);
+background: linear-gradient(90deg, rgba(50,124,213,1) 6%, rgba(227,226,237,1) 50%, rgba(69,85,252,1) 96%);
+
+
+
+  &__header { 
+      height: 100px; 
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      margin: 0 80px; 
+      color: #FFFFFF; 
+  } 
+
+  &__header span { 
+      font-size: 18px; 
+      line-height: 23.4px; 
+  } 
+
+  &__header button { 
+      margin-left: 40px; 
+      width: 130px; 
+      height: 40px; 
+      color: #FFFFFF; 
+  } 
+
+  &__header__btn { 
+      gap: 40px; 
+  } 
+
+}
