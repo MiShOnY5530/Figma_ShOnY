@@ -82,3 +82,34 @@ background: linear-gradient(90deg, rgba(50,124,213,1) 6%, rgba(227,226,237,1) 50
   } 
 
 }
+.general-block__crypto__head__many__text {  
+  padding-left: 120px;  
+  padding-top: 130px;  
+}  
+ 
+.general-block__crypto__buy {  
+  color: white;  
+  font-size: 45px;  
+}  
+.general-block__crypto__lorem {  
+  color: white;  
+  font-size: 15px;  
+  padding-top: 40px;  
+}  
+.general-block__crypto__bsign {  
+  padding-top: 30px;  
+} 
+.general-block__crypto__head__many__img { 
+  padding-top: 60px; 
+  margin-right: 150px; 
+}
+
+.castom___arrow {
+  background: red;
+  position: absolute;
+  top: 50%;
+  width: 1130px;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}

@@ -69,25 +69,39 @@
 }
 .general-block__crypto__head__header__btn {
   gap: 40px;
-}/*# sourceMappingURL=style-preprocess.css.map */
-.general-block__crypto__head__many__text {  
-  padding-left: 120px;  
-  padding-top: 130px;  
-}  
- 
-.general-block__crypto__buy {  
-  color: white;  
-  font-size: 45px;  
-}  
-.general-block__crypto__lorem {  
-  color: white;  
-  font-size: 15px;  
-  padding-top: 40px;  
-}  
-.general-block__crypto__bsign {  
-  padding-top: 30px;  
-} 
-.general-block__crypto__head__many__img { 
-  padding-top: 60px; 
-  margin-right: 150px; 
 }
+
+.general-block__crypto__head__many__text {
+  padding-left: 120px;
+  padding-top: 130px;
+}
+
+.general-block__crypto__buy {
+  color: white;
+  font-size: 45px;
+}
+
+.general-block__crypto__lorem {
+  color: white;
+  font-size: 15px;
+  padding-top: 40px;
+}
+
+.general-block__crypto__bsign {
+  padding-top: 30px;
+}
+
+.general-block__crypto__head__many__img {
+  padding-top: 60px;
+  margin-right: 150px;
+}
+
+.castom___arrow {
+  background: red;
+  position: absolute;
+  top: 50%;
+  width: 1130px;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}/*# sourceMappingURL=style-preprocess.css.map */
