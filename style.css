@@ -618,10 +618,10 @@ form svg {
   margin: 3px !important;
 }
 
-form textarea {
+/**form textarea {
   width: 95% !important;
   margin: 13px;
-}
+}**/
 
 form h2 {
   color: #ffffff;
@@ -816,4 +816,30 @@ section input {
 .row .col {
   border: 1px solid black;
   height: 150px;
+}
+
+.head_info_form{
+  height: 600px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-size: 20px;
+}
+
+.form-group, .form-group2 {
+  border: 1px solid #6b6b6b;
+  padding: 10px;
+}
+
+
+.formtext {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 120px;
 }
