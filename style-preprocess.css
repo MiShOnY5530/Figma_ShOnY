@@ -45,7 +45,6 @@
 }
 
 .general-block__crypto__head {
-  height: 1170px;
   background: rgb(50, 124, 213);
   background: linear-gradient(90deg, rgb(50, 124, 213) 6%, rgb(227, 226, 237) 50%, rgb(69, 85, 252) 96%);
 }

@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="pizza.css" />
     <link rel="stylesheet" href="style-preprocess.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script type="text/javascript" src="/script.js"></script>
@@ -36,7 +37,7 @@
       </nav>
          <div class="general-block_one_text">Best Pizza
           <div class="general-block_two_text">
-               Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Vivamus lacinia odio vitae <br>vestibulum vestibulum. 
+               Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Vivamus lacinia odio vitae <br>vestibulum vestibulum.
               <button type="button" class="btn btn-light col-6" style="margin-top: 30px;border-radius: 25px;">ORDER NOW</button></div>
           </div>
        </div>
@@ -46,20 +47,27 @@
   </div>
 
 
-  <div class="head_info_form">
-  <div class="formtext">FORM
-<form class="form-group">
-      <input type="email" id="email" name="email" class="form-control" placeholder="Email">
-      <input type="text" id="nickname" name="nickname" class="form-control" placeholder="Nickname">
-      <input type="password" id="password" name="password" class="form-control" placeholder="Password">
-      <input type="password" id="confirm_password" name="confirm_password" class="form-control" placeholder="Confirm Password">
-      <input type="url" class="form-control" id="url-input" placeholder="Enter a URL">
-      <input type="number" class="form-control" id="number-input" placeholder="Enter a number">
-      <input type="date" class="form-control" id="date-input">
-      <input type="time" class="form-control" id="time-input">
-</form>
-  </div>
+    <div class="head_info_form">
+    <div class="formtext">FORM
+  <form class="form-group">
+        <input type="email" id="email" name="email" class="form-control" placeholder="Email">
+        <input type="text" id="nickname" name="nickname" class="form-control" placeholder="Nickname">
+        <input type="password" id="password" name="password" class="form-control" placeholder="Password">
+        <input type="password" id="confirm_password" name="confirm_password" class="form-control" placeholder="Confirm Password">
+        <input type="url" class="form-control" id="url-input" placeholder="Enter a URL">
+        <input type="number" class="form-control" id="number-input" placeholder="Enter a number">
+        <input type="date" class="form-control" id="date-input">
+        <input type="time" class="form-control" id="time-input">
+  </form>
     </div>
+
+        <div style="display: flex; justify-content: center;">
+            <button onclick="sendRequest()" class="btn btn-outline-success">SEND DATA ON SERVER</button>
+        </div>
+
+    </div>
+
+
 
   
 
