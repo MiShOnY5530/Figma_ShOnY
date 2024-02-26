@@ -4,11 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" href="style.css" />
-      <link rel="stylesheet" href="pizza.css" />
     <link rel="stylesheet" href="style-preprocess.css" />
+    <link rel="stylesheet" href="pizza.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script type="text/javascript" src="/script.js"></script>
     <title>Pizza</title>
   </head>
   <body>
@@ -47,33 +45,172 @@
   </div>
 
 
-    <div class="head_info_form">
-    <div class="formtext">FORM
-  <form class="form-group">
-        <input type="email" id="email" name="email" class="form-control" placeholder="Email">
-        <input type="text" id="nickname" name="nickname" class="form-control" placeholder="Nickname">
-        <input type="password" id="password" name="password" class="form-control" placeholder="Password">
-        <input type="password" id="confirm_password" name="confirm_password" class="form-control" placeholder="Confirm Password">
-        <input type="url" class="form-control" id="url-input" placeholder="Enter a URL">
-        <input type="number" class="form-control" id="number-input" placeholder="Enter a number">
-        <input type="date" class="form-control" id="date-input">
-        <input type="time" class="form-control" id="time-input">
-  </form>
-    </div>
 
-        <div style="display: flex; justify-content: center;">
-            <button onclick="sendRequest()" class="btn btn-outline-success">SEND DATA ON SERVER</button>
+  <div class="head__form__one">
+    <form class="row g-3 needs-validation" novalidate="" style="justify-content: center;">
+      <div class="col-md-5 position-relative">
+        <label for="validationTooltip01" class="form-label">E-mail</label>
+        <input type="email" class="form-control" id="validationTooltip01" required>
+        <div class="valid-tooltip">
+          Looks good!
         </div>
+      </div>
+      <div class="col-md-5 position-relative">
+        <label for="validationTooltip02" class="form-label">Last name</label>
+        <input type="text" class="form-control" id="validationTooltip02"  required>
+        <div class="valid-tooltip">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-5 position-relative">
+        <label for="validationTooltip03" class="form-label">Password</label>
+        <input type="password" class="form-control" id="validationTooltip03" required>
+        <div class="valid-tooltip">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-5 position-relative">
+        <label for="validationTooltip04" class="form-label">Confirm Password</label>
+        <input type="password" class="form-control" id="validationTooltip04" required>
+        <div class="valid-tooltip">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-7 position-relative">
+        <label for="validationTooltip05" class="form-label">Textarea</label>
+        <input type="textarea" class="form-control" id="validationTooltip05" required>
+        <div class="valid-tooltip">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-5 position-relative">
+        <label for="validationTooltip06" class="form-label">Url</label>
+        <input type="url" class="form-control" id="validationTooltip06" required>
+        <div class="valid-tooltip">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-5 position-relative">
+        <label for="validationTooltip07" class="form-label">Number</label>
+        <input type="number" class="form-control" id="validationTooltip07"  required>
+        <div class="valid-tooltip">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-5 position-relative">
+        <label for="validationTooltip07" class="form-label">Date</label>
+        <input type="date" class="form-control" id="validationTooltip07"  required>
+        <div class="valid-tooltip">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-5 position-relative">
+        <label for="validationTooltip08" class="form-label">Time</label>
+        <input type="time" class="form-control" id="validationTooltip07"  required>
+        <div class="valid-tooltip">
+          Looks good!
+        </div>  
+      </div>
+      <div class="col-12">
+        <button onclick="sendRequest()" class="btn btn-outline-secondary" control-id="ControlID-10" style="margin-left: 10px;">SEND DATA ON SERVER</button>
+      </div>
+    </form>
+  </div>
+  <div class="head__form">
+    <form class="row g-3 needs-validation" novalidate="" style="
+    justify-content: center;
+">
+      <div class="col-md-4 position-relative">
+        <label for="validationTooltip01" class="form-label">First name</label>
+        <input type="text" class="form-control" id="validationTooltip01" required>
+        <div class="valid-tooltip">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-4 position-relative">
+        <label for="validationTooltip02" class="form-label">Last name</label>
+        <input type="text" class="form-control" id="validationTooltip02" required>
+        <div class="valid-tooltip">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-4 position-relative">
+        <label for="validationTooltipUsername" class="form-label">Username</label>
+        <div class="input-group has-validation">
+          <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+          <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+          <div class="valid-tooltip">
+            Looks good!
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 position-relative">
+        <label for="validationTooltip03" class="form-label">City</label>
+        <input type="text" class="form-control" id="validationTooltip03" required>
+        <div class="valid-tooltip">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-md-3 position-relative">
+        <label for="validationTooltip04" class="form-label">State</label>
+        <select class="form-select" id="validationTooltip04" required>
+          <option selected disabled value="">Choose...</option>
+          <option>Ukraine</option>
+        </select>
+        <div class="valid-tooltip">
+          Looks good!
+        </div>
+      </div>
+      <div class="col-12">
+        <button onclick="sendRequestUser()" class="btn btn-outline-danger">SUBMIT FORM</button>
+      </div>
+    </form>
+  </div>
+</div>
 
-    </div>
-
-
-
-  
 
 
 
 
 
   </body>
+<script>
+window.onload = function () {
+    var password = document.getElementById("validationTooltip03");
+    var confirm_password = document.getElementById("validationTooltip04");
+
+    function validatePassword(){
+      if(password.value != confirm_password.value) {
+        confirm_password.setCustomValidity("Паролі не співпадають");
+      } else {
+        confirm_password.setCustomValidity('');
+      }
+    }
+
+    password.onchange = validatePassword;
+    confirm_password.onkeyup = validatePassword;
+}
+</script>
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+      (function () {
+        'use strict'
+        var forms = document.querySelectorAll('.needs-validation')
+        Array.prototype.slice.call(forms)
+          .forEach(function (form) {
+            form.addEventListener('submit', function (event) {
+              if (!form.checkValidity()) {
+                event.preventDefault()
+                event.stopPropagation()
+              }
+              form.classList.add('was-validated')
+            }, false)
+          })
+      })()
+    });
+    </script>
+
+  <script type="text/javascript" src="/script.js"></script>
   </html>  

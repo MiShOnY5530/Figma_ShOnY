@@ -1,3 +1,10 @@
+.head_info-block img {
+  width: 100%;
+  background-size: cover;
+  background-repeat: unset;
+  height: auto;
+}
+
 .container {
   margin-top: 30px;
   border: 3px solid black;
@@ -27,14 +34,22 @@ form {
   font-size: 20px;
 }
 
-.form-group, .form-group2 {
-  border: 1px solid #6b6b6b;
-  padding: 10px;
+.head__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: 5%;
 }
 
-
-.formtext {
-  text-align: center;
-  font-size: 30px;
-  padding-top: 120px;
+.head__form__one {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: 5%;
+  margin-right: 5%;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  margin-top: 30px;
 }

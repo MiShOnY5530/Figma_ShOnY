@@ -800,10 +800,4 @@ section input {
   transform: translateX(0);
 }
 
-.head_info-block img {
-  width: 100%;
-  background-size: cover;
-  background-repeat: unset;
-  height: auto;
-}
   
