@@ -47,7 +47,7 @@
 
 
   <div class="head__form__one">
-    <form class="row g-3 needs-validation" novalidate="" style="justify-content: center;">
+    <form class="row g-3 needs-validation" novalidate="" id="form-extention" style="justify-content: center;">
       <div class="col-md-5 position-relative">
         <label for="validationTooltip01" class="form-label">E-mail</label>
         <input type="email" class="form-control" id="validationTooltip01" required>
@@ -114,58 +114,30 @@
       <div class="col-12">
         <button onclick="sendRequest()" class="btn btn-outline-secondary" control-id="ControlID-10" style="margin-left: 10px;">SEND DATA ON SERVER</button>
       </div>
-    </form>
   </div>
-  <div class="head__form">
-    <form class="row g-3 needs-validation" novalidate="" style="
-    justify-content: center;
-">
-      <div class="col-md-4 position-relative">
-        <label for="validationTooltip01" class="form-label">First name</label>
-        <input type="text" class="form-control" id="validationTooltip01" required>
-        <div class="valid-tooltip">
-          Looks good!
-        </div>
-      </div>
-      <div class="col-md-4 position-relative">
-        <label for="validationTooltip02" class="form-label">Last name</label>
-        <input type="text" class="form-control" id="validationTooltip02" required>
-        <div class="valid-tooltip">
-          Looks good!
-        </div>
-      </div>
-      <div class="col-md-4 position-relative">
-        <label for="validationTooltipUsername" class="form-label">Username</label>
-        <div class="input-group has-validation">
-          <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
-          <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
-          <div class="valid-tooltip">
-            Looks good!
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4 position-relative">
-        <label for="validationTooltip03" class="form-label">City</label>
-        <input type="text" class="form-control" id="validationTooltip03" required>
-        <div class="valid-tooltip">
-          Looks good!
-        </div>
-      </div>
-      <div class="col-md-3 position-relative">
-        <label for="validationTooltip04" class="form-label">State</label>
-        <select class="form-select" id="validationTooltip04" required>
-          <option selected disabled value="">Choose...</option>
-          <option>Ukraine</option>
-        </select>
-        <div class="valid-tooltip">
-          Looks good!
-        </div>
-      </div>
-      <div class="col-12">
-        <button onclick="sendRequestUser()" class="btn btn-outline-danger">SUBMIT FORM</button>
-      </div>
-    </form>
+
+  <div class="btn-triger">
+    <button onclick="checkedValid()" class="btn-primary">TOGGLE</button>
+    <button onclick="showModals()" class="btn-primary">BE But</button>
+    <button onclick="showConsole()" class="btn-primary">Show Console</button>
+
   </div>
+
+  <div class="main-block">
+    <a href="https://www.google.com">
+      <div class="small-block top-left"></div>
+  </a>
+  <a href="https://www.google.com">
+    <div class="small-block top-right"></div>
+</a>
+  
+<a href="https://www.google.com">
+  <div class="small-block bottom-left"></div>
+</a>
+
+<a href="https://www.google.com">
+  <div class="small-block bottom-right"></div>
+</a>
 </div>
 
 
@@ -174,6 +146,11 @@
 
 
   </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
 <script>
 window.onload = function () {
     var password = document.getElementById("validationTooltip03");

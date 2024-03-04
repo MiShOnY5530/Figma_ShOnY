@@ -47,3 +47,19 @@ function sendRequestUser (){
   .then(json => console.log(json));
 }
 
+function checkedValid() {
+  const formContent = document.getElementById("form-extention");
+  return formContent.classList.toggle("was-validated");
+}
+
+function showModals(){
+  alert("hi")
+  prompt("enter")
+  confirm("holly")
+}
+
+console.log ('Hi log')
+
+function showConsole(){
+  console.log ('Я учень IT')
+}
